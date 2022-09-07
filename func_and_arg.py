@@ -31,7 +31,7 @@ def func_and_arg_names(function, *args):
             temp_list.append(interim_arg_name)
     arg_name += ", ".join(temp_list)
 
- print(f"function: {func_name} | argument(s): {arg_name}")
+    print(f"function: {func_name} | argument(s): {arg_name}")
 
 
 open_browser("google_chrome")
